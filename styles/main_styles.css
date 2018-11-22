@@ -17,6 +17,7 @@
 10. Extra
 11. Newsletter
 12. Footer
+13. Team
 
 
 ******************************/
@@ -277,7 +278,7 @@ section
 }
 .button_1
 {
-	background: #fd556d;
+	background: #7b1fa2;
 	border: solid 2px transparent;
 }
 .button_1 a
@@ -287,24 +288,24 @@ section
 .button_1:hover
 {
 	background: transparent;
-	border: solid 2px #fd556d;
+	border: solid 2px #7b1fa2;
 }
 .button_1:hover a
 {
-	color: #fd556d;
+	color: #7b1fa2;
 }
 .button_2
 {
 	background: transparent;
-	border: solid 2px #57ccc3;
+	border: solid 2px #4a0072;
 }
 .button_2 a
 {
-	color: #57ccc3;
+	color: #4a0072;
 }
 .button_2:hover
 {
-	background: #57ccc3;
+	background: #4a0072;
 }
 .button_2:hover a
 {
@@ -360,7 +361,7 @@ section
 }
 .logo a > div:first-child span
 {
-	color: #57ccc3;
+	color: #4a0072;
 	margin-left: 7px;
 }
 .logo a > div:last-child
@@ -385,7 +386,7 @@ section
 .main_nav ul li a:hover,
 .main_nav ul li.active a
 {
-	color: #57ccc3;
+	color: #4a0072;
 }
 .main_nav ul li:not(:last-child)
 {
@@ -403,7 +404,7 @@ section
 {
 	height: 46px;
 	border-radius: 20px;
-	background: #57ccc3;
+	background: #4a0072;
 	padding-left: 40px;
 	padding-right: 36px;
 	line-height: 46px;
@@ -434,7 +435,7 @@ section
 }
 .social ul li:hover
 {
-	background: #57ccc3;
+	background: #4a0072;
 }
 .social ul li:hover a i
 {
@@ -499,7 +500,7 @@ section
 	right: -350px;
 	width: 350px;
 	height: 100vh;
-	background: #57ccc3;
+	background: #4a0072;
 	z-index: 102;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -659,7 +660,7 @@ section
 .home_subtitle
 {
 	font-size: 30px;
-	color: #57ccc3;
+	color: #4a0072;
 	font-weight: 600;
 	line-height: 1.1;
 }
@@ -701,7 +702,7 @@ section
 .home_slider_custom_dot.active,
 .home_slider_custom_dot:hover
 {
-	background: #57ccc3;
+	background: #4a0072;
 }
 .home_slider_custom_dot:not(:last-child)
 {
@@ -731,7 +732,7 @@ section
 {
 	font-size: 36px;
 	font-weight: 700;
-	color: #57ccc3;
+	color: #4a0072;
 	line-height: 0.75;
 }
 .milestone_text
@@ -759,7 +760,7 @@ section
 	left: 0;
 	width: 336px;
 	height: 80px;
-	background: #57ccc3;
+	background: #4a0072;
 	line-height: 80px;
 	text-align: center;
 	font-size: 24px;
@@ -817,7 +818,7 @@ section
 .intro_input:focus,
 .intro_input:hover
 {
-	border: solid 2px #57ccc3;
+	border: solid 2px #4a0072;
 }
 .intro_input::-webkit-input-placeholder
 {
@@ -867,8 +868,8 @@ section
 .intro_button:hover
 {
 	background: transparent;
-	border: solid 2px #fd556d;
-	color: #fd556d;
+	border: solid 2px #7b1fa2;
+	color: #7b1fa2;
 }
 
 /*********************************
@@ -949,7 +950,7 @@ section
 .cta
 {
 	width: 100%;
-	background: #fd556d;
+	background: #7b1fa2;
 	padding-top: 49px;
 	padding-bottom: 46px;
 }
@@ -1149,7 +1150,7 @@ section
 	width: 167px;
 	height: 46px;
 	border-radius: 19px;
-	background: #fd556d;
+	background: #7b1fa2;
 	cursor: pointer;
 	border: none;
 	outline: none;
@@ -1187,7 +1188,7 @@ section
 }
 .footer_logo a > div:first-child span
 {
-	color: #57ccc3;
+	color: #4a0072;
 	margin-left: 7px;
 }
 .footer_logo a > div:last-child
@@ -1252,7 +1253,7 @@ section
 {
 	font-size: 15px;
 	font-weight: 500;
-	color: #57ccc3;
+	color: #4a0072;
 }
 .location_text
 {
@@ -1307,5 +1308,54 @@ section
 }
 .footer_nav ul li a:hover
 {
-	color: #57ccc3;
+	color: #4a0072;
+}
+
+/*********************************
+13. Team
+*********************************/
+
+.team
+{
+	background: #FFFFFF;
+	padding-top: 91px;
+	padding-bottom: 81px;
+}
+.team_row
+{
+	margin-top: 79px;
+}
+.team_item
+{
+	width: 100%;
+	height: 100%;
+}
+.team_image
+{
+	width: 100%;
+}
+.team_image img
+{
+	max-width: 100%;
+}
+.team_content
+{
+	padding-top: 37px;
+}
+.team_name a
+{
+	font-size: 24px;
+	font-weight: 600;
+	color: #404040;
+}
+.team_title
+{
+	font-size: 14px;
+	font-weight: 600;
+	color: #4a0072;
+	margin-top: 3px;
+}
+.team_text
+{
+	margin-top: 22px;
 }
