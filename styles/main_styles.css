@@ -978,8 +978,8 @@ section
 	text-align: center;
 	font-size: 30px;
 	font-weight: 600;
-	color: #fff;
-	background: #ee4860;
+	color: #7b1fa2;
+	background: #fff;
 	border-radius: 19px;
 	white-space: nowrap;
 }
@@ -1061,7 +1061,7 @@ section
 }
 .extra_title
 {
-	font-size: 72px;
+	font-size: 60px;
 	font-weight: 600;
 	color: #404040;
 	margin-top: 16px;
@@ -1333,10 +1333,12 @@ section
 .team_image
 {
 	width: 100%;
+
 }
 .team_image img
 {
 	max-width: 100%;
+	width: 382px;
 }
 .team_content
 {
