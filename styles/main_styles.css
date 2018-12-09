@@ -1259,7 +1259,7 @@ section
 {
 	font-size: 15px;
 	font-weight: 500;
-	color: #4a0072;
+	color: #ffffff;
 }
 .location_text
 {
@@ -1392,7 +1392,7 @@ section
 	width: 60px;
 	height: 60px;
 	border-radius: 50%;
-	background: #57ccc3;
+	background: #4a0072;
 }
 .test_slider_container
 {
@@ -1430,7 +1430,7 @@ section
 }
 .test_text span
 {
-	color: #57ccc3;
+	color:#4a0072;
 }
 .test_slider.owl-theme .owl-nav.disabled + .owl-dots
 {
