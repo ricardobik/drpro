@@ -18,6 +18,7 @@
 11. Newsletter
 12. Footer
 13. Team
+13. Testimonials
 
 
 ******************************/
@@ -257,6 +258,11 @@ section
 	background-size: cover;
 	background-position: center center;
 }
+
+.circle_img {
+    border-radius: 200px
+}
+
 .nopadding
 {
 	padding: 0px !important;
@@ -633,7 +639,7 @@ section
 .home
 {
 	width: 100%;
-	height: 768px;
+	/* height: 768px; */
 	margin-top: 117px;
 }
 .home_slider_container
@@ -717,7 +723,7 @@ section
 {
 	width: 100%;
 	background: #FFFFFF;
-	padding-top: 89px;
+	padding-top: 25px;
 	padding-bottom: 90px;
 }
 .intro_content
@@ -1362,30 +1368,77 @@ section
 	margin-top: 22px;
 }
 
+.why_title
+{
+	color: #4a0072;
+}
 
-.owl-carousel2 .owl-wrapper,
-.owl-carousel2 .owl-item2
+/*********************************
+7. Testimonials
+*********************************/
+
+.testimonials
 {
-	-webkit-backface-visibility: hidden;
-	-moz-backface-visibility: hidden;
-	-ms-backface-visibility: hidden;
-	-webkit-transform: translate3d(0, 0, 0);
-	-moz-transform: translate3d(0, 0, 0);
-	-ms-transform: translate3d(0, 0, 0);
+	padding-top: 102px;
+	padding-bottom: 80px;
+	background: #eff3f7;
 }
-.owl-carousel2 .owl-item2
+.testimonials_row
 {
-	position: relative;
-	min-height: 1px;
-	width: 100%;
-	height: 100%;
-	float: left;
-	-webkit-backface-visibility: hidden;
-	-webkit-tap-highlight-color: transparent;
-	-webkit-touch-callout: none;
+	margin-top: 34px;
 }
-.owl-carousel2 .owl-item2 img
+.quote
 {
-	display: block;
-	width: 100%;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: #57ccc3;
+}
+.test_slider_container
+{
+	margin-top: 43px;
+	padding-left: 70px;
+	padding-right: 70px;
+}
+.test_text p
+{
+	font-size: 16px;
+	line-height: 1.875;
+	color: #868686;
+}
+.test_info
+{
+	margin-top: 52px;
+}
+.test_image
+{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.test_image img
+{
+	max-width: 100%;
+}
+.test_text
+{
+	padding-left: 16px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #404040;
+}
+.test_text span
+{
+	color: #57ccc3;
+}
+.test_slider.owl-theme .owl-nav.disabled + .owl-dots
+{
+	margin-top: 44px;
+}
+.test_slider.owl-theme .owl-dots .owl-dot span
+{
+	width: 8px;
+	height: 8px;
+	margin: 4px;
 }
