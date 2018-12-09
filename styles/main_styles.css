@@ -448,8 +448,8 @@ section
 .social ul li a
 {
 	display: block;
-	width: 100%;
-	height: 100%;
+	/* width: 100%; */
+	/* height: 100%; */
 	line-height: 39px;
 	text-align: center;
 }
@@ -879,12 +879,12 @@ section
 .why
 {
 	width: 100%;
-	background: #eff3f7;
+	background: ##7b1fa2;
 }
 .why_content
 {
-	padding-top: 102px;
-	padding-bottom: 90px;
+	padding-top: 40px;
+	/* padding-bottom: 90px; */
 }
 .why_text
 {
@@ -1360,4 +1360,32 @@ section
 .team_text
 {
 	margin-top: 22px;
+}
+
+
+.owl-carousel2 .owl-wrapper,
+.owl-carousel2 .owl-item2
+{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+}
+.owl-carousel2 .owl-item2
+{
+	position: relative;
+	min-height: 1px;
+	width: 100%;
+	height: 100%;
+	float: left;
+	-webkit-backface-visibility: hidden;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-touch-callout: none;
+}
+.owl-carousel2 .owl-item2 img
+{
+	display: block;
+	width: 100%;
 }
