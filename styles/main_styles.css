@@ -1374,12 +1374,12 @@ section
 }
 
 /*********************************
-7. Testimonials
+13. Testimonials
 *********************************/
 
 .testimonials
 {
-	padding-top: 102px;
+	padding-top: 20px;
 	padding-bottom: 80px;
 	background: #eff3f7;
 }
