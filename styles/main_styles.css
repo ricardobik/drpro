@@ -1643,6 +1643,7 @@ Hero slider style==========================*/
   text-transform: uppercase;
   border-radius: 30px;
   text-decoration: none;
+	font-weight: 600;
 }
 
 .custom-btn1:hover {
