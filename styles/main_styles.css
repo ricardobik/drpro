@@ -1458,6 +1458,10 @@ Hero slider style==========================*/
   background-image: url(https://techsolutionshere.com/wp-content/uploads/2019/01/s3.jpg);
 }
 
+.item-bg4 {
+  background-image: url("egograma3.jpg");
+}
+
 .hero-text {
   padding: 0 15px;
   text-align: center;
@@ -1513,6 +1517,20 @@ Hero slider style==========================*/
   width: 50px;
 }
 
+.test_slider_container .owl-carousel .owl-nav button.owl-prev {
+  background-color: #7b1fa2;
+  position: absolute;
+  left: -100px;
+  top: -200px;
+  color: #fff;
+  font-size: 30px;
+  margin: -40px 0 0;
+  border-radius: 0;
+  height: 50px;
+  width: 50px;
+}
+
+
 .owl-carousel .owl-nav button.owl-next {
   background-color: #7b1fa2;
   position: absolute;
@@ -1524,6 +1542,26 @@ Hero slider style==========================*/
   border-radius: 0;
   height: 50px;
   width: 50px;
+}
+
+.test_slider_container .owl-carousel .owl-nav button.owl-next {
+  background-color: #7b1fa2;
+  position: absolute;
+  right: -100px;
+  top: -200px;
+  color: #fff;
+  font-size: 30px;
+  margin: -40px 0 0;
+  border-radius: 0;
+  height: 50px;
+  width: 50px;
+}
+
+.test_slider_container .owl-dots {
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 20px;
 }
 
 .owl-theme .owl-nav {
